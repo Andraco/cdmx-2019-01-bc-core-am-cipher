@@ -1,76 +1,92 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
 
-    <title>Cifrado</title>
+<head>
+  <meta charset="utf-8">
 
-    <linkrel="stylesheet"href="style.css"/>
-  </head>
+  <title>Cifrado</title>
 
-  <body>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-    <div id="root">
+<body>
 
-      <!--titulo-->
-      <h1>Padres Troleados</h1>
-      
-      <!--Introduccion de Bienvenida-->
-      <div id="cajita">
+  <div id="root">
+
+    <!--titulo-->
+    <h1>Padres Troleados</h1>
+
+    <!--Introduccion de Bienvenida-->
+    <div id="cajita">
       <div class="p1">
-     <p><strong>Bienvenido a tu pequeño citio de privacidad</strong>
-          <br>Hola pequeñ@ pillín@ esta pequeña aplicacion es para aquellos padres desesperados que sueñan con tener una conversación intima ya sea con su espos@ o bien con amigos que desean utilizar tal vez palabras inadecuadas para sus niños y que estos a su vez cuando menos te das cuenta ya tienen tú celular en las manos, aprenden a leer y manejan mejor ellos  tu smart-phone que vos.<br>
-          En menos de 5 minutos te entra un mensaje, escribes un mensaje y tu pequeñ@ se encuentra leyendo todo lo que escribes o recibes de mensajes y te pregunta el por que de esos mensajes aveces inadecuados para ellos y te ponen en aprietos a la hora de explicar o bien decirle que no lo haga pero lo sigue haciendo!!.<br>No te preocupes llego tu salvación con esta pequeña aplicación podras cifrar y decifrar mensajes y a la vez jugar con la imaginacion de tu peque, no lo pienses más y empieza a redactar esos pensamientos sin culpa.<br></p>
-          <!--Caja 2 Instrucciones-->
-          <div class="p2">
-            <p>Instrucciones:</stronger>Bien empecemos para poder utilizar esta mágica aplicación deberas tener una llave este sera un número que seleciones para el Cifrado que realizaras y poder decodificar.<br> Podras visualizar tres cajas y una de ellas mas pequaña esta ultima introduciras tu llave la cual te reiteramos tendras que memorizar ya que la utilizaras para tu cifrado.<br>En el primer recuadro  donde dice mensaje introduciras tu texto daras click en el boton cifrar y este aparecera totalmente decodificado con una sintaxis que no se entendera.<br>Para poder entender posterirormente tu codigo o cifrado deberas seleccionar  el texto de la tercera caja y pegarlo en la primera en donde introduciste tu primer texto seleccionas la llave y da click en el boton decifrar, la caja dos arrojara el resutaldo de tu texto legible<br> </p>
-            <br>
-          </div> 
+        <p><strong>Bienvenido a tu pequeño citio de privacidad</strong>
+          <br>Hola pequeñ@ pillín@ esta pequeña aplicacion es para aquellos padres desesperados que sueñan con tener
+          una conversación intima ya sea con su espos@ o bien con amigos que desean utilizar tal vez palabras
+          inadecuadas para sus niños y que estos a su vez cuando menos te das cuenta ya tienen tú celular en las manos,
+          aprenden a leer y manejan mejor ellos tu smart-phone que vos.<br>
+          En menos de 5 minutos te entra un mensaje, escribes un mensaje y tu pequeñ@ se encuentra leyendo todo lo que
+          escribes o recibes de mensajes y te pregunta el por que de esos mensajes aveces inadecuados para ellos y te
+          ponen en aprietos a la hora de explicar o bien decirle que no lo haga pero lo sigue haciendo!!.<br>No te
+          preocupes llego tu salvación con esta pequeña aplicación podras cifrar y decifrar mensajes y a la vez jugar
+          con la imaginacion de tu peque, no lo pienses más y empieza a redactar esos pensamientos sin culpa.<br></p>
+        <!--Caja 2 Instrucciones-->
+        <div class="p2">
+          <p><strong>Instrucciones:</strong>Bien empecemos para poder utilizar esta mágica aplicación deberas tener una
+            llave este sera un número que seleciones para el Cifrado que realizaras y poder decodificar.<br> Podras
+            visualizar tres cajas y una de ellas mas pequaña esta ultima introduciras tu llave la cual te reiteramos
+            tendras que memorizar ya que la utilizaras para tu cifrado.<br>En el primer recuadro donde dice mensaje
+            introduciras tu texto daras click en el boton cifrar y este aparecera totalmente decodificado con una
+            sintaxis que no se entendera.<br>Para poder entender posterirormente tu codigo o cifrado deberas
+            seleccionar el texto de la tercera caja y pegarlo en la primera en donde introduciste tu primer texto
+            seleccionas la llave y da click en el boton decifrar, la caja dos arrojara el resutaldo de tu texto legible<br>
+          </p>
+          <br>
         </div>
-        </div>
-        <main>
-          <br>
-          <!--caja para pedir mensaje por medio de una clase -->
-          <div class="a">
-            <!--abarcar. Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea span.-->
-            <span> Ingresa tu Mensaje</span>
-         </div>
-         <!--Botones e Inputs-->
-         <div id="b">
-           <br>
-           <br>
-           <!--mensaje a cifrar, <textarea> representa un control para edición muti-línea de texto plano. caja de texto a cifrar-->
-           <textarea class="fondo" name="texto" rows="20" cols="60" placeholder="Tu mensaje a cifrar" id= "caja1"></textarea>
-           <br>
- <!--saltos-->
-           <br>
-          <!-- llave sera un boton de valor numero donde nos mandara un tipo numero con un minimo y maximo de  extenciones a Cifrar -->
-          <input  class="fondo3" type="number" id= "numero" min= "0"  max="35" value="0">
-          <br>
-          <br>
+      </div>
+    </div>
+    <main>
+      <br>
+      <!--caja para pedir mensaje por medio de una clase -->
+      <div class="a">
+        <!--abarcar. Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea span.-->
+        <span> Ingresa tu Mensaje</span>
+      </div>
+      <!--Botones e Inputs-->
+      <div id="b">
+        <br>
+        <br>
+        <!--mensaje a cifrar, <textarea> representa un control para edición muti-línea de texto plano. caja de texto a cifrar-->
+        <textarea class="fondo" name="texto" rows="20" cols="60" placeholder="Tu mensaje a cifrar" id="caja1"></textarea>
+        <br>
+        <!--saltos-->
+        <br>
+        <!-- llave sera un boton de valor numero donde nos mandara un tipo numero con un minimo y maximo de  extenciones a Cifrar -->
+        <input class="fondo3" type="number" id="numero" min="0" max="35" value="0">
+        <br>
+        <br>
 
-          <!-- boton Cifrar -->
-        <input class="color1" id="boton1"  type="button" name="" value="Cifrar">
- 
+        <!-- boton Cifrar -->
+        <input class="color1" id="boton1" type="button" name="" value="Cifrar">
+
         <!-- boton Decifrar-->
-        <button class="color2" id="boton2"  type="button" value= "button">Descifrar</button>
- 
-           <br>
- 
-          <br>
- 
-          <!--Caja  mensaje descifrado -->
-         <textarea class="fondo2" name="texto" rows="8" cols="80" placeholder="Tu mensaje" id= "caja2"></textarea>
+        <button class="color2" id="boton2" type="button" value="button">Descifrar</button>
+
+        <br>
+
+        <br>
+
+        <!--Caja  mensaje descifrado -->
+        <textarea class="fondo2" name="texto" rows="8" cols="80" placeholder="Tu mensaje" id="caja2"></textarea>
         <br>
         <!--Caja de o etiqueta para pie de pagina-->
         <div id="pie de pagina"><br>
-            <pl>Esta pagina fue creada por Andrea Ramírez</pl>
-          </div> 
-       </div>
+          <pl>Esta pagina fue creada por Andrea Ramírez</pl>
+        </div>
       </div>
-        </main>
-      </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    </main>
+  </div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
