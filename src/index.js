@@ -1,44 +1,28 @@
-// variables que le dara la funcionalidad a cipher
-
+//forma nueva de declarar variable en vez de var
+//llamar a lavarable boton de html para dar funcionalidad
+//variables que le dara la funcionalidad a cipher
+//aqui traigo mi elemento boton por medio de un id
 let botonCifrar= document.getElementById("boton1");
+//boton2 mensaje a de decifrar
+let botonDecifrar= document.getElementById("boton2");
 
-let botonDescifrar= document.getElementById("boton2");
 
-let mensaje1= document.getElementById("caja1");
+//el numero que escogera como llave
 
-let llave= document.getElementById("numero");
-
-let mensaje2= document.getElementById("caja2");
+//caja dos mensaje cifrado
+let botonCifrado= document.getElementById("caja2")
 
 
 
 // evento que sera un click para el boton de cifrar
-botonCifrar.addEventListener ("click" , event => {
-
-    //evnto de la llave secreta
-  let detonadorValor= window.cipher.encode (
-
-    llave.value, mensaje1.value
-
-  );
-//console para verefircar
-
-  mensaje2.innerHTML = detonadorValor;
-
-});
-
- 
-
-//bloque de funcion evento para el boton de descifrar
-
-botonDescifrar.addEventListener("click" , event => {
-
-  let detonadorValor= window.cipher.decode (
-
-  llave.value, mensaje1.value
-
-  );
-
-  mensaje2.innerHTML= detonadorValor;
-
+//variables de tipo bloque
+//addEventListener registra el evento especifico que en este caso es dar el click al boton cifrar
+botonCifrar.addEventListener ("click" , () => {
+  const mensajeUsuario=document.getElementById("caja1").value;
+  console.log(mensajeUsuario);
+  const ofset=parseInt(document.getElementById('numero').value);
+  console.log(ofset)
+  //aqui se invoca la funcion encode y se pone como argumentos las variables con los valores
+const detonadorValor= window.cipher.encode(ofset,mensajeUsuario);
+botonCifrado.innerHTML=detonadorValor;
 });
