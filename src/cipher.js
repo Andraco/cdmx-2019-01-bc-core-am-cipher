@@ -1,5 +1,3 @@
-
-
 window.cipher = {
   //convertir el manseje en mayusculas 
   encode: (desplazamiento,cifrado)=>{
@@ -16,16 +14,22 @@ window.cipher = {
       const letras=String.fromCharCode(form);
       //concatena las letras cifradas,
       codigo+=letras;
-
-
-      
-      
-      
-      
     }
-  return codigo
+    return codigo
   },
 
+      //desifrado
+      decode: (desplazamiento,decifrado)=>{
+        let text=decifrado.toUpperCase();
+        let codigoDecifrado="";
+        for (let i=0;i<text.length;i++){
+        const ascii=text.charCodeAt(i);
+          const form=(ascii+65-parseInt(desplazamiento))%26+65;
+          const letras=String.fromCharCode(form);
+          codigoDecifrado+=letras;
+    }
+  return codigoDecifrado;
+  }
 
 };
  

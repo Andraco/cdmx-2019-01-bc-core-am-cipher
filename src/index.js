@@ -10,7 +10,7 @@ let botonDecifrar= document.getElementById("boton2");
 //el numero que escogera como llave
 
 //caja dos mensaje cifrado
-let botonCifrado= document.getElementById("caja2")
+let botonCifrado= document.getElementById("caja2");
 
 
 
@@ -19,10 +19,16 @@ let botonCifrado= document.getElementById("caja2")
 //addEventListener registra el evento especifico que en este caso es dar el click al boton cifrar
 botonCifrar.addEventListener ("click" , () => {
   const mensajeUsuario=document.getElementById("caja1").value;
-  console.log(mensajeUsuario);
-  const ofset=parseInt(document.getElementById('numero').value);
-  console.log(ofset)
-  //aqui se invoca la funcion encode y se pone como argumentos las variables con los valores
+    const ofset=parseInt(document.getElementById('numero').value);
+    //aqui se invoca la funcion encode y se pone como argumentos las variables con los valores
 const detonadorValor= window.cipher.encode(ofset,mensajeUsuario);
 botonCifrado.innerHTML=detonadorValor;
+});
+
+botonDecifrar.addEventListener ("click", () => {
+  const mensajeUsuario=document.getElementById("caja1").value;
+  const ofset=parseInt(document.getElementById('numero').value);
+  const detonador= window.cipher.decode(ofset,mensajeUsuario);
+botonCifrado.innerHTML=detonador;
+//console.log(detonador);
 });
