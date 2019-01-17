@@ -1,5 +1,1 @@
-window.cipher = {
-  const encode = ()=> {
-    
-  }
-};
+

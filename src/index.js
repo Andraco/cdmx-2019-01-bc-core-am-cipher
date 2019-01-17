@@ -1,19 +1,44 @@
-function encriptar (elemento) {
-    //traera todos los elementos cuya etiqueta sea input, como solo es un valor entrecorchetes ponemso 0 
-  //y para conseguir el valor de ese input se pone value
-          var palabra = document.getElementsByTagName("input")[ 0 ].value;
-    //con btoa estaremos codificando en base 64 y en el parentesis representa la palabra
-      //a decodificar al realizarlo asi la plabra se encriptara y pasara a palabra codificada
-          var palabra_codificada = btoa(palabra)
-          //en el parrafo que pusimos queremos el resultado de esa palabra y lo aremos con el document
-      //y con el id llamamos al id del parrafo que seria lo unico que se modificaria
-      //con el iner mostraria el texto que tiene actualmente pero con palabra modidicada sustitura el texto
-  //que tenga actualmente que es el que introrucira el usuario y esto pasa con palabra modificada
-          document.getElementById("resultado").innerHTML = palabra_codificada;
-  }
-  function desencriptar (elemento) {
-          var palabra = document.getElementsByTagName("input")[ 0 ].value;
-          var palabra_descodificada = atob(palabra)
-          document.getElementById("resultado").innerHTML = palabra_descodificada;
-    //la propiedad atob descodifica
-  }
+// variables que le dara la funcionalidad a cipher
+
+let botonCifrar= document.getElementById("boton1");
+
+let botonDescifrar= document.getElementById("boton2");
+
+let mensaje1= document.getElementById("caja1");
+
+let llave= document.getElementById("numero");
+
+let mensaje2= document.getElementById("caja2");
+
+
+
+// evento que sera un click para el boton de cifrar
+botonCifrar.addEventListener ("click" , event => {
+
+    //evnto de la llave secreta
+  let detonadorValor= window.cipher.encode (
+
+    llave.value, mensaje1.value
+
+  );
+//console para verefircar
+
+  mensaje2.innerHTML = detonadorValor;
+
+});
+
+ 
+
+//bloque de funcion evento para el boton de descifrar
+
+botonDescifrar.addEventListener("click" , event => {
+
+  let detonadorValor= window.cipher.decode (
+
+  llave.value, mensaje1.value
+
+  );
+
+  mensaje2.innerHTML= detonadorValor;
+
+});
