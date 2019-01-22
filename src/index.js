@@ -18,7 +18,7 @@ let botonCifrado= document.getElementById("caja2");
 //variables de tipo bloque
 //addEventListener registra el evento especifico que en este caso es dar el click al boton cifrar
 botonCifrar.addEventListener ("click" , () => {
-  const mensajeUsuario=document.getElementById("caja1").value;
+  const mensajeUsuario=document.getElementById('caja1').value;
     const ofset=parseInt(document.getElementById('numero').value);
     //aqui se invoca la funcion encode y se pone como argumentos las variables con los valores
 const detonadorValor= window.cipher.encode(ofset,mensajeUsuario);
