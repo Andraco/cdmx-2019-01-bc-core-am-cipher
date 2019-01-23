@@ -25,7 +25,9 @@ window.cipher = {
     
   //ubicar mayusculas en ascci
   } else if (ascii>= 65 && ascii<=90) {
-    let formula = (ascii + 90 - parseInt(offset)) % 26 +90;
+    let formula = (ascii - 65 +  parseInt(offset)) % 26 +65;
+    
+
     lugares = String.fromCharCode(formula);
     normal += lugares;
     
@@ -36,7 +38,7 @@ window.cipher = {
     normal += lugares;
   }
   
-
+  
 //}
 //formula
      // const form=(ascii-65+parseInt(desplazamiento))%26+65;
@@ -45,7 +47,9 @@ window.cipher = {
       //concatena las letras cifradas,
       //codigo+=letras;
     }
+
     return normal;
+    
   },
 
       //desifrado
@@ -55,27 +59,25 @@ window.cipher = {
         for (let i=0;i<text.length;i++){
         const ascii=text.charCodeAt(i);
           
-          if (ascii === 32) {
-  normal += text[i];
-// ubicar simbolos en ascii
-} else if (ascii>= 33 && ascii<= 64) {
-  let formula = (lugares - 64 - parseInt(offset)) % 26 +64;
-  let ascii = String.fromCharCode(formula);
-  normal += ascii;
+     
 //ubicar mayusculas en ascii
-} else if (ascii>= 65 && ascii<=90) {
-  let formula = (lugares - 65 - parseInt(offset)) % 26 +65;
-  let ascii = String.fromCharCode(formula);
-  normal += ascii;
+if (ascii>= 65 && ascii<=90) {
+  let formula = (ascii + 65 - parseInt(desplazamiento)) % 26 +65;
+  let resultadoMayus = String.fromCharCode(formula);
+  codigoDecifrado +=resultadoMayus;
 // ubicar minusculas
 } else if (ascii>= 97 && ascii<= 122) {
-  let formula = (lugares - 122 - parseInt(offset)) % 26 -122;
-  let ascii = String.fromCharCode(formula);
-  normal += ascii;
+  let formula = (ascii - 122 - parseInt(desplazamiento)) % 26 +122;
+  let resultadoMinus= String.fromCharCode(formula);
+  codigoDecifrado += resultadoMinus;
+}else{
+  let resultado=String.fromCharCode(ascii);
+  codigoDecifrado += resultado;
 }
 
 }
-        
-return codigoDecifrado;
+return codigoDecifrado
+
       }  
+     
       };
