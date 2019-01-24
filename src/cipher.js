@@ -19,8 +19,8 @@ window.cipher = {
     
   //ubicar caracteres especiales en ascii donde el rango va del 33 al 64 y se sustituye en la formula
   } else if (ascii>= 33 && ascii<= 64) {
-    let formula = (lugares - 33 + parseInt(offset)) % 26 +33;
-    lugares = text.String.fromCharCode(formula);
+   // let formula = (lugares - 33 + parseInt(offset)) % 26 +33;
+    lugares = String.fromCharCode(ascii);
     normal += lugares;
     
   //ubicar mayusculas en ascci
@@ -54,6 +54,12 @@ if (ascii>= 65 && ascii<=90) {
   let formula = (ascii + 65 - parseInt(desplazamiento)) % 26 +65;
   let resultadoMayus = String.fromCharCode(formula);
   codigoDecifrado +=resultadoMayus;
+
+
+  //ubicar caracteres especiales 
+} else if (ascii>= 33 && ascii<= 64) {
+   decifrado = String.fromCharCode(ascii);
+   codigoDecifrado += decifrado;
 
 // ubicar minusculas
 } else if (ascii>= 97 && ascii<= 122) {

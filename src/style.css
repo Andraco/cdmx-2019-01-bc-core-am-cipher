@@ -1,9 +1,13 @@
-.root {
+body {
     background-image: url(https://solomarketing.es/wp-content/uploads/2018/04/23.jpg);
     background-attachment: fixed;
     background-size: 100%;
     color: white;
-    }
+    /*posible solucion para el iphone*/
+    margin: 0 auto;
+    width: 100%;
+    height: auto;  
+  }
     
     /*pared de lado izquierdo Bienvenido*/
     #pared {
