@@ -2,7 +2,7 @@ window.cipher = {
   //convertir el manseje en mayusculas 
   encode: (desplazamiento,cifrado)=>{
     let text=cifrado.toUpperCase();
-    //guardar texto ya cifrado
+    //guardar en variable x  texto ya cifrado
     let normal="";
     //recorrer la longitud del texto
     for (let i=0;i<text.length;i++){
@@ -26,8 +26,6 @@ window.cipher = {
   //ubicar mayusculas en ascci
   } else if (ascii>= 65 && ascii<=90) {
     let formula = (ascii - 65 +  parseInt(offset)) % 26 +65;
-    
-
     lugares = String.fromCharCode(formula);
     normal += lugares;
     
@@ -38,33 +36,25 @@ window.cipher = {
     normal += lugares;
   }
   
-  
-//}
-//formula
-     // const form=(ascii-65+parseInt(desplazamiento))%26+65;
-      //convirtiendo el codigo ascii en letras
-     //const letras=String.fromCharCode(form);
-      //concatena las letras cifradas,
-      //codigo+=letras;
     }
 
     return normal;
     
   },
 
-      //desifrado
+      //desifrado descodificar 
       decode: (desplazamiento,decifrado)=>{
         let text=decifrado;
         let codigoDecifrado="";
         for (let i=0;i<text.length;i++){
         const ascii=text.charCodeAt(i);
           
-     
-//ubicar mayusculas en ascii
+     //ubicar mayusculas en ascii
 if (ascii>= 65 && ascii<=90) {
   let formula = (ascii + 65 - parseInt(desplazamiento)) % 26 +65;
   let resultadoMayus = String.fromCharCode(formula);
   codigoDecifrado +=resultadoMayus;
+
 // ubicar minusculas
 } else if (ascii>= 97 && ascii<= 122) {
   let formula = (ascii - 122 - parseInt(desplazamiento)) % 26 +122;

@@ -1,5 +1,28 @@
 # Cifrado César
 
+# justificación
+ Este maravilloso espacio esta creado para todos aquellos padres de familia que tienen hijos pequeños y pierden su privacidad
+
+Pensando en ti, hemos creado esta estupenda aplicación donde podrás ser libre de expresarte sin tener que darle explicaciones a los peques. 
+
+*Padres Troleados* es un espacio donde podrás enviar mensajes cifrados y decodificarlos al mismo tiempo con una llave que solo tu tendrás, ejemplo: para cuando te llegue un mensaje que contenga palabras altisonantes o bien mensajes no adecuados para ellos, este llegara con letras revueltas que no entenderán ambos e incluso puedes jugar al mismo tiempo con la imaginación del pequeñ@, cuando te encuentres “solo” podrás descifrar los mensajes y contestarlos al mismo tiempo cifrados.
+
+ Así que no esperes más y empieza a usar esta extraordinaria aplicación que te devolverá un poco de esa privacidad perdid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
