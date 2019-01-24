@@ -9,17 +9,18 @@ Pensando en ti, hemos creado esta estupenda aplicación donde podrás ser libre 
 
  Así que no esperes más y empieza a usar esta extraordinaria aplicación que te devolverá un poco de esa privacidad perdid
 
+# Enfoque
+La idea surgue apartir de una conversación entre amigos que son padres de familia y denotan la problemática que es tener privacidad cuando se tienen hijos, por esta razón, surgue está aplicación para poder atacar este sector de mercado pequeño que pide ser escuchada solucionando el problema que suele ser muchas veces el tema de la privacidad en general, dando el parametro para futuras actualizaciones ir evolucionando conforme el mercado vaya demandando y poder transformarla para otro tipo de audiencia.
 
+#Maquetado
+El Título se elabora mediante un enfoque gracioso que atrape al usuario y lo motive a consumir el producto de una forma divertida e interectiva para el, poniendo una imagen subjetiva que da entender junto con el título que funcionalidad tendra y para que fin puede ser utilizada.
+El instructivo de como usarla viene implicito todo en una misma pantalla por siel usuario tivera al guna duda de esta.  
 
+# Agradecimientos
+Quiero mencionar a las prsonas que me apoyaron para poder lograr este reto ya que sin ellas esta página no tendría funcionalidad, pies ni cabeza.
+Lorena, Eli, Daan que me apoyaron en todo momento para poder entender lo que realizaba en js y en el cipher, Lorena que me dio la pauta y su paciencia en la expliacion de variables y funciones como conectarlas, Eli a corregir los errores a la hora de pulir el haker edition al igual que Daan.
 
-
-
-
-
-
-
-
-
+A Jhon por apoyarme en las dudas tecnicas a mi jedi por la feedback que nos daba en general al squad para poder ver la luz y no menos importante a las valkidias por su respuesta de aliento, ánimo y perseverancia ante este gran reto .
 
 
 

@@ -36,6 +36,7 @@ window.cipher = {
     normal += lugares;
   }
   
+  
     }
 
     return normal;
