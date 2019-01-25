@@ -1,28 +1,26 @@
-# Cifrado César
-
-# justificación
- Este maravilloso espacio esta creado para todos aquellos padres de familia que tienen hijos pequeños y pierden su privacidad
+# Justificación
+ Este maravilloso espacio esta creado para todos aquellos padres de familia que tienen hijos pequeños y pierden su privacidad.
 
 Pensando en ti, hemos creado esta estupenda aplicación donde podrás ser libre de expresarte sin tener que darle explicaciones a los peques. 
 
-*Padres Troleados* es un espacio donde podrás enviar mensajes cifrados y decodificarlos al mismo tiempo con una llave que solo tu tendrás, ejemplo: para cuando te llegue un mensaje que contenga palabras altisonantes o bien mensajes no adecuados para ellos, este llegara con letras revueltas que no entenderán ambos e incluso puedes jugar al mismo tiempo con la imaginación del pequeñ@, cuando te encuentres “solo” podrás descifrar los mensajes y contestarlos al mismo tiempo cifrados.
+*Padres Troleados* es un espacio donde podrás enviar mensajes cifrados y decodificarlos al mismo tiempo con una llave que solo tu tendrás, ejemplo: para cuando te llegue un mensaje que contenga palabras altisonantes o bien mensajes no adecuados para ellos, este llegará en forma de código que no entenderán ambos, cuando te encuentres “solo” podrás descifrarlos y contestarlos al mismo tiempo cifrados.
 
- Así que no esperes más y empieza a usar esta extraordinaria aplicación que te devolverá un poco de esa privacidad perdid
+ Así que no esperes más y empieza a usar esta extraordinaria aplicación que te devolverá un poco de esa privacidad perdida.
 
 # Enfoque
-La idea surgue apartir de una conversación entre amigos que son padres de familia y denotan la problemática que es tener privacidad cuando se tienen hijos, por esta razón, surgue está aplicación para poder atacar este sector de mercado pequeño que pide ser escuchada solucionando el problema que suele ser muchas veces el tema de la privacidad en general, dando el parametro para futuras actualizaciones ir evolucionando conforme el mercado vaya demandando y poder transformarla para otro tipo de audiencia.
+La idea surgue a partir de una conversación entre amigos que son padres de familia y denotan la problemática de la privacidad cuando se tienen hijos, por esta razón, nace está aplicación para abordar este pequeño sector que pide ser escuchado, solucionando el problema que suele ser muchas veces el tema de la privacidad en general, dando oportunidad para futuras actualizaciones, así mismo ir evolucionando conforme a la demanda del mercado y poder transformarla para otro tipo de audiencia.
 
 # Maquetado
-El Título se elabora mediante un enfoque gracioso que atrape al usuario y lo motive a consumir el producto de una forma divertida e interectiva para el, poniendo una imagen subjetiva que da entender junto con el título que funcionalidad tendra y para que fin puede ser utilizada.
-El instructivo de como usarla viene implicito todo en una misma pantalla por siel usuario tivera al guna duda de esta.  
+El Título se elabora mediante un enfoque gracioso que atrape al usuario y lo motive a consumir el producto de una forma divertida e interectiva para el, poniendo una imagen subjetiva que da entender junto con el título que funcionalidad tendrá y para que fin puede ser utilizada.
+El instructivo viene implícito en una misma pantalla por si tienen dudas de como utilizar la aplicación.  
 
 # Agradecimientos
-Quiero mencionar a las prsonas que me apoyaron para poder lograr este reto ya que sin ellas esta página no tendría funcionalidad, pies ni cabeza.
-Lorena, Eli, Daan que me apoyaron en todo momento para poder entender lo que realizaba en js y en el cipher, Lorena que me dio la pauta y su paciencia en la expliacion de variables y funciones como conectarlas, Eli a corregir los errores a la hora de pulir el haker edition al igual que Daan.
+Quiero mencionar a las personas que me apoyaron para poder lograr este reto ya que sin ellas esta página no tendría funcionalidad, pies ni cabeza.
+Lorena, Eli, Daan que me ayudaron en todo momento para poder entender lo que realizaba en js y en el cipher, Lorena que me dio la pauta y su paciencia en la expliacion de variables y funciones como conectarlas, Eli a corregir los errores a la hora de pulir el haker edition al igual que Daan.
 
-A Jhon por apoyarme en las dudas tecnicas a mi jedi por la feedback que nos daba en general al squad para poder ver la luz y no menos importante a las valkidias por su respuesta de aliento, ánimo y perseverancia ante este gran reto .
+A Jhon por apoyarme en las dudas técnicas, a mi jedi por el feedback que nos da en general al squad para poder ver la luz y no menos importante a las valkidias por su respuesta de aliento, ánimo y perseverancia ante este gran reto .
 
-# Cifrado Cesar
+# Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
