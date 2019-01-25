@@ -3,10 +3,7 @@ body {
     background-attachment: fixed;
     background-size: 100%;
     color: white;
-    /*posible solucion para el iphone*/
-    margin: 0 auto;
-    width: 100%;
-    height: auto;  
+  
   }
     
     /*pared de lado izquierdo Bienvenido*/
